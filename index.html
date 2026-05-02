@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QR Display</title>
+  <title>Love QR</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Romantic Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
 
   <style>
     * {
@@ -21,56 +21,89 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      overflow: hidden;
+    }
+
+    /* Floating hearts */
+    .heart {
+      position: absolute;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 20px;
+      animation: float 6s linear infinite;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) scale(0.5);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.2);
+        opacity: 0;
+      }
     }
 
     .card {
-      background: white;
-      padding: 40px 60px;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      background: rgba(255, 255, 255, 0.9);
+      padding: 50px 70px;
+      border-radius: 25px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.2);
       text-align: center;
-      animation: fadeIn 0.6s ease;
+      backdrop-filter: blur(10px);
+      animation: fadeIn 0.8s ease;
     }
 
     .title {
-      font-size: 20px;
-      color: #888;
-      margin-bottom: 15px;
+      font-family: 'Great Vibes', cursive;
+      font-size: 36px;
+      color: #ff4d6d;
+      margin-bottom: 10px;
     }
 
     .text {
-      font-size: 42px;
-      font-weight: 600;
+      font-size: 38px;
+      font-weight: 500;
       color: #333;
+      margin-top: 10px;
       word-break: break-word;
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
     }
 
     .footer {
       margin-top: 20px;
       font-size: 14px;
-      color: #aaa;
+      color: #999;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
     }
   </style>
 </head>
 
 <body>
 
+  <!-- Floating hearts -->
+  <div class="heart" style="left:10%">❤</div>
+  <div class="heart" style="left:30%; animation-delay:2s;">❤</div>
+  <div class="heart" style="left:50%; animation-delay:4s;">❤</div>
+  <div class="heart" style="left:70%; animation-delay:1s;">❤</div>
+  <div class="heart" style="left:90%; animation-delay:3s;">❤</div>
+
   <div class="card">
-    <div class="title">Scanned Result</div>
+    <div class="title">💕 Love Message 💕</div>
     <div id="output" class="text">Loading...</div>
-    <div class="footer">Powered by QR System</div>
+    <div class="footer">Made with ❤️</div>
   </div>
 
   <script>
@@ -82,7 +115,7 @@
     if (text) {
       output.innerText = text;
     } else {
-      output.innerText = "Ei Ei Khin";
+      output.innerText = "Ei Ei Khin ❤️";
     }
   </script>
 
