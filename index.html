@@ -1,33 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>QR Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Display</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
     body {
-      font-family: Arial;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+    }
+
+    .card {
+      background: white;
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
       text-align: center;
-      margin-top: 100px;
-      font-size: 40px;
+      animation: fadeIn 0.6s ease;
+    }
+
+    .title {
+      font-size: 20px;
+      color: #888;
+      margin-bottom: 15px;
+    }
+
+    .text {
+      font-size: 42px;
+      font-weight: 600;
+      color: #333;
+      word-break: break-word;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
     }
   </style>
 </head>
 
 <body>
 
-<div id="output">Loading...</div>
+  <div class="card">
+    <div class="title">Scanned Result</div>
+    <div id="output" class="text">Loading...</div>
+    <div class="footer">Powered by QR System</div>
+  </div>
 
-<script>
-  const params = new URLSearchParams(window.location.search);
-  const text = params.get("text");
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const text = params.get("text");
 
-  if (text) {
-    document.getElementById("output").innerText = text;
-  } else {
-    document.getElementById("output").innerText = "Ei Ei Khin";
-  }
-</script>
+    const output = document.getElementById("output");
+
+    if (text) {
+      output.innerText = text;
+    } else {
+      output.innerText = "Ei Ei Khin";
+    }
+  </script>
 
 </body>
 </html>
