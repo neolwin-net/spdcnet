@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>QR Page</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 100px;
+      font-size: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="output">Loading...</div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const text = params.get("text");
+
+  if (text) {
+    document.getElementById("output").innerText = text;
+  } else {
+    document.getElementById("output").innerText = "No text provided";
+  }
+</script>
+
+</body>
+</html>
