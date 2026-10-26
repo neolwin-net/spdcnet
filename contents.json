@@ -1,0 +1,70 @@
+{
+  "resources": [
+    {
+      "title": "Segment Routing Traffic Engineering",
+      "category": "Networking Notes",
+      "description": "An introduction to SR-MPLS, segment lists, policies, candidate paths, and traffic steering.",
+      "type": "PDF",
+      "file": "documents/networking-notes/segment-routing-traffic-engineering.pdf",
+      "date": "2026-10-26",
+      "updated": "2026-10-26",
+      "tags": ["Segment Routing", "SR-TE", "MPLS"],
+      "version": "FOUNDATION / ADVANCED"
+    },
+    {
+      "title": "Inter-AS Option C",
+      "category": "Lab Writeups",
+      "description": "A lab-oriented reference for labeled-unicast reachability and inter-provider VPN route exchange.",
+      "type": "PDF",
+      "file": "documents/lab-writeups/inter-as-option-c.pdf",
+      "date": "2026-10-26",
+      "updated": "2026-10-26",
+      "tags": ["BGP", "L3VPN", "MPLS"],
+      "version": "SERVICE PROVIDER"
+    },
+    {
+      "title": "BGP Path Attributes",
+      "category": "Networking Notes",
+      "description": "A concise reference to BGP path attributes and their role in route selection.",
+      "type": "PDF",
+      "file": "documents/networking-notes/bgp-path-attributes.pdf",
+      "date": "2026-10-20",
+      "updated": "2026-10-20",
+      "tags": ["BGP", "Routing", "Path Selection"],
+      "version": "REFERENCE"
+    },
+    {
+      "title": "EVE-NG Lab Environment Guide",
+      "category": "EVE-NG Images",
+      "description": "Planning notes for virtual network labs, node resources, and image compatibility records.",
+      "type": "PDF",
+      "file": "documents/eve-ng-images/eve-ng-lab-environment-guide.pdf",
+      "date": "2026-10-18",
+      "updated": "2026-10-18",
+      "tags": ["EVE-NG", "Virtualization", "Lab Setup"],
+      "version": "LAB SETUP"
+    },
+    {
+      "title": "MPLS L3VPN Fundamentals",
+      "category": "Networking Notes",
+      "description": "VRFs, route distinguishers, route targets, VPNv4, and label-based forwarding in provider networks.",
+      "type": "PDF",
+      "file": "documents/networking-notes/mpls-l3vpn-fundamentals.pdf",
+      "date": "2026-10-15",
+      "updated": "2026-10-15",
+      "tags": ["MPLS", "L3VPN", "VPNv4"],
+      "version": "FUNDAMENTALS"
+    },
+    {
+      "title": "IS-IS Segment Routing Configuration",
+      "category": "Lab Writeups",
+      "description": "Example workflow for enabling SR-MPLS in an IS-IS underlay and verifying prefix SIDs.",
+      "type": "PDF",
+      "file": "documents/lab-writeups/isis-segment-routing.pdf",
+      "date": "2026-10-12",
+      "updated": "2026-10-12",
+      "tags": ["IS-IS", "SR-MPLS", "IOS-XR"],
+      "version": "CONFIGURATION"
+    }
+  ]
+}
