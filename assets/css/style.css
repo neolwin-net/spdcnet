@@ -26,7 +26,7 @@ body {
   background: radial-gradient(ellipse at 50% -25%,#242424 0,transparent 48%),var(--bg);
   color: var(--text);
   font-family: var(--sans);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -114,11 +114,11 @@ button {
   gap: 5px;
 }
 .brand-copy strong {
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: .045em;
 }
 .brand-copy small {
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   letter-spacing: .06em;
   color: #999;
 }
@@ -131,7 +131,7 @@ button {
   padding: 10px 12px;
   border-radius: 9px;
   color: #aaa;
-  font-size: 12px;
+  font-size: 13px;
   transition: background .2s,color .2s;
   white-space: nowrap;
 }
@@ -163,7 +163,7 @@ button {
   gap: 64px;
 }
 .eyebrow {
-  font: 10px var(--mono);
+  font: 11px var(--mono);
   letter-spacing: .14em;
   color: #a7a7a7;
   text-transform: uppercase;
@@ -180,7 +180,7 @@ button {
   display: inline-block;
 }
 .hero h1 {
-  font-size: clamp(42px,5.3vw,68px);
+  font-size: clamp(44px,5.3vw,70px);
   line-height: 1.12;
   letter-spacing: -.065em;
   margin: 25px 0 20px;
@@ -192,7 +192,7 @@ button {
 .hero-description {
   max-width: 490px;
   color: #aaa;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.9;
   margin: 0;
 }
@@ -210,7 +210,7 @@ button {
   gap: 20px;
   padding: 12px 17px;
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   border: 1px solid var(--border);
   transition: transform .2s,background .2s,border-color .2s;
@@ -244,7 +244,7 @@ button {
   align-items: center;
   justify-content: space-between;
   color: #858585;
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   letter-spacing: .08em;
 }
 .topology {
@@ -285,12 +285,12 @@ button {
   border-color: var(--border-hover);
 }
 .stat-label {
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   letter-spacing: .1em;
   color: #999;
 }
 .stat-value {
-  font-size: 36px;
+  font-size: 38px;
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: -.05em;
@@ -298,7 +298,7 @@ button {
   font-variant-numeric: tabular-nums;
 }
 .stat-note {
-  font-size: 10px;
+  font-size: 11px;
   color: #777;
 }
 .library-section {
@@ -314,7 +314,7 @@ button {
   margin-bottom: 28px;
 }
 .section-heading h2,.about-section h2 {
-  font-size: clamp(28px,3vw,38px);
+  font-size: clamp(30px,3vw,40px);
   line-height: 1.2;
   letter-spacing: -.055em;
   margin: 12px 0 8px;
@@ -325,10 +325,10 @@ button {
 .section-subtitle {
   color: #888;
   margin: 0;
-  font-size: 13px;
+  font-size: 14px;
 }
 .resource-count {
-  font-size: 9px;
+  font-size: 10px;
   color: #8b8b8b;
   letter-spacing: .08em;
   padding-bottom: 7px;
@@ -363,7 +363,7 @@ button {
   outline: 0;
   color: #eee;
   width: 100%;
-  font-size: 12px;
+  font-size: 13px;
   padding: 8px 0;
 }
 .search-box input::placeholder {
@@ -374,7 +374,7 @@ button {
   border-radius: 5px;
   color: #777;
   padding: 1px 7px;
-  font: 10px var(--mono);
+  font: 11px var(--mono);
 }
 .sort-control {
   display: flex;
@@ -385,7 +385,7 @@ button {
   white-space: nowrap;
 }
 .sort-control span {
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   letter-spacing: .08em;
   color: #777;
 }
@@ -395,7 +395,7 @@ button {
   border: 1px solid #333;
   border-radius: 7px;
   padding: 8px 24px 8px 9px;
-  font-size: 11px;
+  font-size: 12px;
   outline: none;
   max-width: 170px;
 }
@@ -412,7 +412,7 @@ button {
   color: #888;
   padding: 8px 11px;
   border-radius: 8px;
-  font-size: 11px;
+  font-size: 12px;
   display: inline-flex;
   align-items: center;
   gap: 11px;
@@ -420,7 +420,7 @@ button {
   transition: all .2s;
 }
 .filter-chip span {
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   color: #737373;
   background: rgba(255,255,255,.055);
   padding: 2px 6px;
@@ -469,7 +469,7 @@ button {
   align-items: center;
   gap: 7px;
   color: #b8b8b8;
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   letter-spacing: .08em;
 }
 .file-icon {
@@ -490,18 +490,18 @@ button {
   stroke-width: 1.5;
 }
 .card-date {
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   color: #707070;
 }
 .category-label {
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   text-transform: uppercase;
   letter-spacing: .09em;
   color: #888;
   margin-top: 22px;
 }
 .resource-card h3 {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.45;
   letter-spacing: -.025em;
   margin: 7px 0 9px;
@@ -509,7 +509,7 @@ button {
 }
 .resource-card p {
   color: #969696;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.8;
   margin: 0 0 15px;
 }
@@ -524,7 +524,7 @@ button {
   border: 1px solid rgba(255,255,255,.09);
   border-radius: 5px;
   padding: 3px 6px;
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   color: #858585;
 }
 .card-bottom {
@@ -537,11 +537,11 @@ button {
   gap: 10px;
 }
 .card-meta {
-  font: 9px var(--mono);
+  font: 10px var(--mono);
   color: #777;
 }
 .card-link {
-  font-size: 11px;
+  font-size: 12px;
   color: #eee;
   display: inline-flex;
   gap: 8px;
@@ -570,12 +570,12 @@ button {
   display: none;
 }
 .empty-icon {
-  font-size: 36px;
+  font-size: 38px;
   color: #777;
 }
 .empty-state h3 {
   margin: 8px 0;
-  font-size: 18px;
+  font-size: 19px;
 }
 .empty-state p {
   color: #888;
@@ -587,7 +587,7 @@ button {
   gap: 10px;
   margin-top: 22px;
   color: #777;
-  font-size: 10px;
+  font-size: 11px;
 }
 .footnote-mark {
   width: 17px;
@@ -596,7 +596,7 @@ button {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font: 10px var(--mono);
+  font: 11px var(--mono);
   flex-shrink: 0;
 }
 .about-section {
@@ -611,7 +611,7 @@ button {
   gap: 24px;
 }
 .about-symbol {
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 800;
   letter-spacing: -.08em;
   color: #ddd;
@@ -626,19 +626,19 @@ button {
   color: #777;
 }
 .about-section h2 {
-  font-size: 23px;
+  font-size: 24px;
   margin: 8px 0;
 }
 .about-section p {
   max-width: 690px;
   color: #909090;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.9;
   margin: 0;
 }
 .text-link {
   white-space: nowrap;
-  font-size: 11px;
+  font-size: 12px;
   color: #ddd;
   display: flex;
   gap: 12px;
@@ -657,10 +657,10 @@ button {
   align-items: center;
   gap: 22px;
   color: #666;
-  font-size: 10px;
+  font-size: 11px;
 }
 .footer-brand {
-  font: 11px var(--mono);
+  font: 12px var(--mono);
   letter-spacing: .06em;
   color: #bbb;
 }
@@ -688,7 +688,7 @@ button {
   }
   .nav-link {
     padding: 9px 8px;
-    font-size: 11px;
+    font-size: 12px;
   }
   .hero {
     gap: 30px;
@@ -727,7 +727,7 @@ button {
     height: 34px;
   }
   .brand-copy strong {
-    font-size: 13px;
+    font-size: 14px;
   }
   .mobile-menu {
     display: block;
@@ -760,11 +760,11 @@ button {
     margin: 65px auto 38px;
   }
   .hero h1 {
-    font-size: clamp(43px,12vw,60px);
+    font-size: clamp(45px,12vw,62px);
     margin-top: 20px;
   }
   .hero-description {
-    font-size: 13px;
+    font-size: 14px;
   }
   .hero-visual {
     min-height: 250px;
@@ -785,13 +785,13 @@ button {
     min-height: 122px;
   }
   .stat-value {
-    font-size: 31px;
+    font-size: 33px;
   }
   .stat-label {
-    font-size: 8px;
+    font-size: 9px;
   }
   .stat-note {
-    font-size: 9px;
+    font-size: 10px;
   }
   .library-section {
     margin-bottom: 75px;
@@ -803,7 +803,7 @@ button {
     margin-bottom: 20px;
   }
   .section-heading h2 {
-    font-size: 30px;
+    font-size: 32px;
   }
   .resource-count {
     padding: 0;
@@ -829,7 +829,7 @@ button {
     margin: 15px 0 18px;
   }
   .filter-chip {
-    font-size: 10px;
+    font-size: 11px;
     padding: 7px 8px;
     gap: 6px;
   }
@@ -849,7 +849,7 @@ button {
     grid-column: auto;
   }
   .about-section h2 {
-    font-size: 22px;
+    font-size: 23px;
   }
   .site-footer {
     flex-wrap: wrap;
@@ -861,7 +861,7 @@ button {
   }
 }
 @media(prefers-reduced-motion:reduce) {
-  *,*: :before,*::after {
+  *,*::before,*::after {
     scroll-behavior: auto!important;
     transition: none!important;
     animation: none!important;
