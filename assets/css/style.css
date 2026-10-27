@@ -947,3 +947,207 @@ button {
     min-width: 0;
   }
 }
+
+
+/* High-contrast theme: inspired by GitHub's dark interface */
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --surface-strong: #21262d;
+  --border: #30363d;
+  --border-hover: #8b949e;
+  --text: #f0f6fc;
+  --muted: #c9d1d9;
+  --dim: #8b949e;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--bg);
+  color: #f0f6fc;
+  font-size: 16px;
+}
+
+.ambient { display: none; }
+
+.glass {
+  background: #161b22;
+  border: 1px solid #30363d;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.site-header {
+  background: rgba(13,17,23,.97);
+  border-color: #30363d;
+}
+
+.brand-mark {
+  border-color: #484f58;
+  background: #21262d;
+  color: #f0f6fc;
+}
+
+.brand-copy small,
+.nav-link,
+.eyebrow,
+.visual-topline,
+.visual-footer,
+.stat-label,
+.resource-count,
+.sort-control span,
+.card-date,
+.category-label,
+.card-meta,
+.library-footnote,
+.site-footer,
+.contact-link small,
+.contact-link-arrow {
+  color: #b1bac4;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background: #21262d;
+  color: #ffffff;
+}
+
+.hero h1 span { color: #79c0ff; }
+
+.hero-description,
+.section-subtitle,
+.resource-card p,
+.about-section p,
+.empty-state p {
+  color: #c9d1d9;
+}
+
+.button-primary {
+  background: #238636;
+  color: #ffffff;
+  border-color: #2ea043;
+}
+
+.button-primary:hover {
+  background: #2ea043;
+  border-color: #3fb950;
+}
+
+.button-quiet {
+  background: #21262d;
+  color: #f0f6fc;
+  border-color: #484f58;
+}
+
+.hero-visual,
+.stat-card,
+.library-tools,
+.resource-card,
+.empty-state,
+.about-section {
+  background: #161b22;
+  border-color: #30363d;
+}
+
+.stat-value { color: #ffffff; }
+.stat-note { color: #b1bac4; }
+
+.heading-period { color: #79c0ff; }
+
+.search-box svg { stroke: #b1bac4; }
+.search-box input { color: #f0f6fc; }
+.search-box input::placeholder { color: #8b949e; }
+
+.search-box kbd {
+  border-color: #484f58;
+  color: #c9d1d9;
+  background: #0d1117;
+}
+
+.sort-control select {
+  background: #0d1117;
+  color: #f0f6fc;
+  border-color: #484f58;
+}
+
+.filter-chip { color: #c9d1d9; }
+.filter-chip span {
+  color: #c9d1d9;
+  background: #21262d;
+}
+.filter-chip:hover {
+  color: #ffffff;
+  background: #21262d;
+}
+.filter-chip.active {
+  color: #ffffff;
+  background: #1f3b59;
+  border-color: #388bfd;
+}
+.filter-chip.active span { color: #ffffff; }
+
+.resource-card:hover {
+  background: #1c2128;
+  border-color: #8b949e;
+}
+
+.file-type,
+.card-link,
+.text-link { color: #f0f6fc; }
+
+.file-icon {
+  border-color: #484f58;
+  color: #f0f6fc;
+  background: #21262d;
+}
+
+.tag {
+  border-color: #484f58;
+  color: #c9d1d9;
+  background: #0d1117;
+}
+
+.card-bottom,
+.visual-footer,
+.site-footer {
+  border-color: #30363d;
+}
+
+.card-link span,
+.text-link span { color: #79c0ff; }
+
+.loading-card { color: #c9d1d9; }
+.empty-icon { color: #79c0ff; }
+
+.about-symbol,
+.contact-link-icon {
+  color: #f0f6fc;
+  border-color: #484f58;
+  background: #21262d;
+}
+
+.contact-link {
+  background: #0d1117;
+  border-color: #30363d;
+}
+.contact-link:hover {
+  background: #21262d;
+  border-color: #388bfd;
+}
+.contact-link strong { color: #f0f6fc; }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #58a6ff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .main-nav {
+    background: #161b22;
+    border-color: #30363d;
+  }
+}
