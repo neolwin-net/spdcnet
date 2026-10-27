@@ -428,6 +428,39 @@
       "updated": "2026-08-07",
       "tags": ["SERVICE PROVIDER", "FILTERING", "BGP"],
       "version": "BGP"
+    },
+    {
+      "title": "Dynamips",
+      "category": "EVE-NG Images",
+      "description": "Dynamips Images.",
+      "type": "PDF",
+      "file": "https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgCXkOkjMCabQql4LkhZgdHsARso-cQXSKn5aielZPGPF0g?e=ChNUzq",
+      "date": "2026-10-27",
+      "updated": "2026-10-27",
+      "tags": ["DYNAMIPS", "EVE-NG", "IMAGES"],
+      "version": "DYNAMIPS"
+    },
+    {
+      "title": "QEMU",
+      "category": "EVE-NG Images",
+      "description": "Dynamips Images.",
+      "type": "PDF",
+      "file": "https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgDKZ1dxKjFiR5LS2uaF2DUIAXSgTawspOCCjig6VD5_BRk?e=yEvcAG",
+      "date": "2026-10-27",
+      "updated": "2026-10-27",
+      "tags": ["QEMU", "EVE-NG", "IMAGES"],
+      "version": "QEMU"
+    },
+    {
+      "title": "IOL",
+      "category": "EVE-NG Images",
+      "description": "Dynamips Images.",
+      "type": "PDF",
+      "file": "https://1drv.ms/f/c/f796b5a2ef0ab1d8/IgBy3oWotuHQT7cnJ4WC8n70AcFcifHGLwh7y5wd8ziE7M0?e=Xa35XV",
+      "date": "2026-10-27",
+      "updated": "2026-10-27",
+      "tags": ["IOL", "EVE-NG", "IMAGES"],
+      "version": "IOL"
     }
   ]
 }
