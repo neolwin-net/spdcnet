@@ -45,26 +45,37 @@
       "version": "NETWORKING BASIC KNOWLEDGE"
     },
     {
-      "title": "MPLS L3VPN Fundamentals",
+      "title": "Complex Wildcard Mask Calculation",
       "category": "Networking Notes",
-      "description": "VRFs, route distinguishers, route targets, VPNv4, and label-based forwarding in provider networks.",
+      "description": "A calculation about complex wildcard mask.",
       "type": "PDF",
-      "file": "documents/networking-notes/mpls-l3vpn-fundamentals.pdf",
-      "date": "2026-10-15",
-      "updated": "2026-10-15",
-      "tags": ["MPLS", "L3VPN", "VPNv4"],
-      "version": "FUNDAMENTALS"
+      "file": "Kontents/Notes_MM/complex_wildcard_mask.pdf",
+      "date": "2025-07-08",
+      "updated": "2025-07-08",
+      "tags": ["Complex Wildcard", "Mask", "Calculation"],
+      "version": "NETWORKING BASIC KNOWLEDGE"
     },
     {
-      "title": "IS-IS Segment Routing Configuration",
-      "category": "Lab Writeups",
-      "description": "Example workflow for enabling SR-MPLS in an IS-IS underlay and verifying prefix SIDs.",
+      "title": "OSPF Link-State Advertisement Packet Types",
+      "category": "Networking Notes",
+      "description": "An overview knowledge about OSPF LSA Types",
       "type": "PDF",
-      "file": "documents/lab-writeups/isis-segment-routing.pdf",
-      "date": "2026-10-12",
-      "updated": "2026-10-12",
-      "tags": ["IS-IS", "SR-MPLS", "IOS-XR"],
-      "version": "CONFIGURATION"
+      "file": "Kontents/Notes_MM/lsa_types00.pdf",
+      "date": "2025-09-24",
+      "updated": "2025-09-24",
+      "tags": ["OSPF", "LSA"],
+      "version": "OSPF"
+    },
+      {
+      "title": "OSPF Special Areas",
+      "category": "Networking Notes",
+      "description": "An overview knowledge about OSPF Special Areas",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/OSPF_Special_Areas.pdf",
+      "date": "2026-03-08",
+      "updated": "2026-03-08",
+      "tags": ["OSPF", "LSA","Area"],
+      "version": "OSPF"
     }
   ]
 }
