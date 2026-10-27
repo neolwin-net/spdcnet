@@ -153,6 +153,17 @@
       "updated": "2026-10-26",
       "tags": ["IP/MPLS", "MPLS","BGP","Inter-AS","Option"],
       "version": "Inter-AS L3VPN"
+    },
+    {
+      "title": "DMVPN PHASE 2 WITH IKEv2",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying DMVPN Phase 2 with IKEv2.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/dmvpn_phase_2.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["DMVPN", "IKEv2"],
+      "version": "DMVPN"
     }
   ]
 }
