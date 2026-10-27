@@ -155,7 +155,7 @@
       "version": "Inter-AS L3VPN"
     },
     {
-      "title": "DMVPN PHASE 2 WITH IKEv2",
+      "title": "DMVPN Phase 2 With IKEv2",
       "category": "Lab Writeups",
       "description": "A practical lab guide to configuring and verifying DMVPN Phase 2 with IKEv2.",
       "type": "PDF",
