@@ -318,6 +318,116 @@
       "updated": "2025-12-30",
       "tags": ["MPLS", "BGP", "INTER-AS", "CSC"],
       "version": "CARRIER SUPPORTING CARRIER"
+    },
+    {
+      "title": "Locator/ID Separation Protocol (LISP)",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying LISP.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/lisp00.pdf",
+      "date": "2026-01-15",
+      "updated": "2026-01-15",
+      "tags": ["LISP"],
+      "version": "LISP"
+    },
+    {
+      "title": "Service Provider MPLS VPNs and BGP Peering with ISPs and Customers [Full Lab]",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Service Provider Labs.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/sp_full_lab00.pdf",
+      "date": "2026-01-18",
+      "updated": "2026-01-18",
+      "tags": ["SERVICE PROVIDER", "MPLS", "BGP"],
+      "version": "SERVICE PROVIDER"
+    },
+    {
+      "title": "IXP Multilateral and Bilateral Peering Scenario",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying IXP Scenarios.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/ixp_peering.pdf",
+      "date": "2026-02-08",
+      "updated": "2026-02-08",
+      "tags": ["SERVICE PROVIDER", "MPLS", "BGP", "IXP"],
+      "version": "IXP"
+    },
+    {
+      "title": "Mobile Backhaul IP/MPLS L3VPN [BBU to EPC End-to-End IP Reachability]",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Mobile Backhaul IP/MPLS L3VPN.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/mobile_backhaul.pdf",
+      "date": "2026-02-22",
+      "updated": "2026-02-22",
+      "tags": ["SERVICE PROVIDER", "MPLS", "BGP", "IP CORE"],
+      "version": "IP CORE: MOBILE BACKHAUL"
+    },
+    {
+      "title": "PE–PE IPsec Tunnel using FlexVPN in an MPLS L3VPN Core",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying PE–PE IPsec Tunnel.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/pe-pe-ipsec.pdf",
+      "date": "2026-02-28",
+      "updated": "2026-02-28",
+      "tags": ["SERVICE PROVIDER", "MPLS", "BGP", "IPSEC", "FLEX", "VPN"],
+      "version": "PE-PE IPSEC"
+    },
+    {
+      "title": "Enterprise Multi-Homed BGP Lab",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Enterprise Multi-Homed BGP.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/ent_bgp_lab01.pdf",
+      "date": "2026-04-04",
+      "updated": "2026-04-04",
+      "tags": ["SERVICE PROVIDER", "BGP"],
+      "version": "BGP"
+    },
+    {
+      "title": "Multipoint Multi-VLAN Layer 2 Service over QinQ-Based VPLS",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying QinQ VPLS.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/qinq_vpls_01.pdf",
+      "date": "2026-06-16",
+      "updated": "2026-06-16",
+      "tags": ["SERVICE PROVIDER", "MPLS", "L2VPN", "QINQ"],
+      "version": "QINQ VPLS"
+    },
+    {
+      "title": "IS-IS Multi-Area & Route-Leaking",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying IS-IS Multi-Area & Route-Leaking.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/IS-IS_Multi-area_&_Route-leaking.pdf",
+      "date": "2026-06-21",
+      "updated": "2026-06-21",
+      "tags": ["SERVICE PROVIDER", "IS-IS"],
+      "version": "IS-IS"
+    },
+    {
+      "title": "Destination-Based Remotely Triggered Black Hole (RTBH)",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying RTBH.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/RTBH00.pdf",
+      "date": "2026-06-26",
+      "updated": "2026-06-26",
+      "tags": ["SERVICE PROVIDER", "RTBH", "BGP"],
+      "version": "RTBH"
+    },
+    {
+      "title": "BGP Route Filtering and Route Manipulation in an Enterprise Network",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying BGP Filtering & Route Manipulation.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/BGP_Route_Filtering_And_Manipulation.pdf",
+      "date": "2026-08-07",
+      "updated": "2026-08-07",
+      "tags": ["SERVICE PROVIDER", "FILTERING", "BGP"],
+      "version": "BGP"
     }
   ]
 }
