@@ -164,6 +164,160 @@
       "updated": "2024-12-15",
       "tags": ["DMVPN", "IKEv2"],
       "version": "DMVPN"
-    }
+    },
+    {
+      "title": "IPSec VTI With IKEv2",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying IPSec VTI with IKEv2.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/ipsec_vti_ikev2.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["IPSec", "IKEv2", "VTI"],
+      "version": "IPSec VTI"
+    },
+    {
+      "title": "GRE over IPSec With IKEv2",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying GRE over IPSec with IKEv2.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/gre_over_ipsec_with_ikev2.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["IPSec", "IKEv2", "GRE"],
+      "version": "GRE over IPSec"
+    },
+    {
+      "title": "Virtual Private LAN Service (VPLS)",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying VPLS in MPLS Network.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/vpls00.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["MPLS", "VPLS", "L2VPN"],
+      "version": "VPLS"
+    },
+    {
+      "title": "Virtual Private Wire Service (VPWS)",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying VPWS in MPLS Network.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/vpws.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["MPLS", "VPWS", "L2VPN"],
+      "version": "VPWS"
+    },
+    {
+      "title": "Dynamic NAT With Multiple Outside Interfaces & ISP Failover With Policy-based Routing",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Dynamic NAT with Multiple Outside Interfaces & PBR.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/dnat_isp_failover_pbr.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["DYNAMIC NAT", "PBR"],
+      "version": "NAT"
+    },
+    {
+      "title": "MPLS L3VPN",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying MPLS L3VPN.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/mpls_l3vpn.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["MPLS", "L3VPN"],
+      "version": "MPLS L3VPN"
+    },
+    {
+      "title": "Redistribution, Route-tag, Unequal Cost Load-balancing And Leak-map",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Redistribution.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/redistribution_route_tag_UECLB_leak-map.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["REDISTRIBUTION", "ROUTE-TAG", "LEAK-MAP", "LOAD-BALANCING"],
+      "version": "REDISTRIBUTION"
+    },
+    {
+      "title": "TCP Load Distribution With Static NAT And Complex Wildcard Mask",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying TCP Load Distribution.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/tcp_load_distribution_and_wildcard_mask.pdf",
+      "date": "2024-12-15",
+      "updated": "2024-12-15",
+      "tags": ["TCP LOAD DISTRIBUTION", "WILDCARD MASK", "STATIC NAT"],
+      "version": "TCP LOAD DISTRIBUTION"
+    },
+    {
+      "title": "MPLS Traffic Engineering Tunnel per VRF",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying MPLS-TE Tunnel per VRF.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/te_tunnel_per_vrf.pdf",
+      "date": "2025-12-10",
+      "updated": "2025-12-10",
+      "tags": ["MPLS", "MPLS-TE", "VRF"],
+      "version": "MPLS-TE"
+    },
+    {
+      "title": "Seamless (or) Unified MPLS",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Seamless (or) Unified MPLS.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/seamless_unified_mpls.pdf",
+      "date": "2025-10-29",
+      "updated": "2025-10-29",
+      "tags": ["MPLS", "Seamless", "Unified"],
+      "version": "MPLS"
+    },
+    {
+      "title": "Inter-AS Option-A",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Inter-AS Option-A.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/optiona.pdf",
+      "date": "2025-12-23",
+      "updated": "2025-12-23",
+      "tags": ["MPLS", "BGP", "INTER-AS", "OPTION-A"],
+      "version": "INTER-AS L3VPN"
+    },
+    {
+      "title": "Inter-AS Option-B",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Inter-AS Option-B.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/optionb.pdf",
+      "date": "2025-12-24",
+      "updated": "2025-12-24",
+      "tags": ["MPLS", "BGP", "INTER-AS","OPTION-B"],
+      "version": "INTER-AS L3VPN"
+    },
+    {
+      "title": "Inter-AS Option-C",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Inter-AS Option-C.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/optionc.pdf",
+      "date": "2025-12-25",
+      "updated": "2025-12-25",
+      "tags": ["MPLS", "BGP", "INTER-AS", "OPTION-C"],
+      "version": "INTER-AS L3VPN"
+    },
+    {
+      "title": "Carrier Supporting Carrier (CSC)",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring and verifying Carrier Supporting Carrier (CSC).",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/csc01.pdf",
+      "date": "2025-12-30",
+      "updated": "2025-12-30",
+      "tags": ["MPLS", "BGP", "INTER-AS", "CSC"],
+      "version": "CARRIER SUPPORTING CARRIER"
+    },
   ]
 }
