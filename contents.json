@@ -76,6 +76,83 @@
       "updated": "2026-03-08",
       "tags": ["OSPF", "LSA","Area"],
       "version": "OSPF"
+    },
+        {
+      "title": "Virtual Routing And Forwarding (VRF)",
+      "category": "Networking Notes",
+      "description": "An overview knowledge about VRF",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/vrf00.pdf",
+      "date": "2025-09-24",
+      "updated": "2025-09-24",
+      "tags": ["VRF", "MPLS","VRF Lite"],
+      "version": "VRF"
+    },
+    {
+      "title": "Multiprotocol Label Switching (MPLS)",
+      "category": "Networking Notes",
+      "description": "An explanation about MPLS.",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/mpls00.pdf",
+      "date": "2025-09-24",
+      "updated": "2025-09-24",
+      "tags": ["IP/MPLS", "MPLS"],
+      "version": "IP/MPLS"
+    },
+    {
+      "title": "What is MPLS L3VPN",
+      "category": "Networking Notes",
+      "description": "An explanation about MPLS L3VPN.",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/mpls_l3vpn.pdf",
+      "date": "2026-05-16",
+      "updated": "2026-05-16",
+      "tags": ["IP/MPLS", "MPLS","L3VPN"],
+      "version": "MPLS L3VPN"
+    },
+    {
+      "title": "What is MPLS L2VPN",
+      "category": "Networking Notes",
+      "description": "An explanation about MPLS L2VPN.",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/mpls_l2vpn.pdf",
+      "date": "2026-06-08",
+      "updated": "2026-06-08",
+      "tags": ["IP/MPLS", "MPLS","L2VPN"],
+      "version": "MPLS L2VPN"
+    },
+    {
+      "title": "BGP Path Selection Process",
+      "category": "Networking Notes",
+      "description": "An explanation about BGP Path Selection Process.",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/BGP_Path_Selection_Process.pdf",
+      "date": "2026-08-05",
+      "updated": "2026-08-05",
+      "tags": ["IP/MPLS", "MPLS","BGP"],
+      "version": "BGP Path Selection Process"
+    },
+    {
+      "title": "BGP Path Attributes in Brief",
+      "category": "Networking Notes",
+      "description": "An explanation about BGP Path Attributes.",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/bgp_path_attributes_in_brief.pdf",
+      "date": "2026-08-22",
+      "updated": "2026-08-22",
+      "tags": ["IP/MPLS", "MPLS","BGP"],
+      "version": "BGP Path Attributes"
+    },
+    {
+      "title": "Inter-AS L3VPN",
+      "category": "Networking Notes",
+      "description": "An explanation about Inter-AS L3VPN Options.",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/Inter-AS-L3VPN.pdf",
+      "date": "2026-10-26",
+      "updated": "2026-10-26",
+      "tags": ["IP/MPLS", "MPLS","BGP","Inter-AS","Option"],
+      "version": "Inter-AS L3VPN"
     }
   ]
 }
