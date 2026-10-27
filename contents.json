@@ -1,48 +1,48 @@
 {
   "resources": [
     {
-      "title": "Segment Routing Traffic Engineering",
+      "title": "What is Microwave",
       "category": "Networking Notes",
-      "description": "An introduction to SR-MPLS, segment lists, policies, candidate paths, and traffic steering.",
+      "description": "An introduction to Microwave System.",
       "type": "PDF",
-      "file": "documents/networking-notes/segment-routing-traffic-engineering.pdf",
-      "date": "2026-10-26",
-      "updated": "2026-10-26",
-      "tags": ["Segment Routing", "SR-TE", "MPLS"],
-      "version": "FOUNDATION / ADVANCED"
+      "file": "Kontents/Notes_MM/microwave_link.pdf",
+      "date": "2025-09-09",
+      "updated": "2025-09-09",
+      "tags": ["Microwave"],
+      "version": "FOUNDATION"
     },
     {
-      "title": "Inter-AS Option C",
-      "category": "Lab Writeups",
-      "description": "A lab-oriented reference for labeled-unicast reachability and inter-provider VPN route exchange.",
-      "type": "PDF",
-      "file": "documents/lab-writeups/inter-as-option-c.pdf",
-      "date": "2026-10-26",
-      "updated": "2026-10-26",
-      "tags": ["BGP", "L3VPN", "MPLS"],
-      "version": "SERVICE PROVIDER"
-    },
-    {
-      "title": "BGP Path Attributes",
+      "title": "What is SD-WAN",
       "category": "Networking Notes",
-      "description": "A concise reference to BGP path attributes and their role in route selection.",
+      "description": "An introduction to Software-defined WAN.",
       "type": "PDF",
-      "file": "documents/networking-notes/bgp-path-attributes.pdf",
-      "date": "2026-10-20",
-      "updated": "2026-10-20",
-      "tags": ["BGP", "Routing", "Path Selection"],
-      "version": "REFERENCE"
+      "file": "Kontents/Notes_MM/sd_wan00.pdf",
+      "date": "2024-12-16",
+      "updated": "2024-12-16",
+      "tags": ["SD-WAN", "Software-Defined", "WAN"],
+      "version": "SOFTWARE-DEFINED NETWORKING"
     },
     {
-      "title": "EVE-NG Lab Environment Guide",
-      "category": "EVE-NG Images",
-      "description": "Planning notes for virtual network labs, node resources, and image compatibility records.",
+      "title": "Silent Killers for Network Engineers",
+      "category": "Networking Notes",
+      "description": "The things that kill network engineers silently.",
       "type": "PDF",
-      "file": "documents/eve-ng-images/eve-ng-lab-environment-guide.pdf",
-      "date": "2026-10-18",
-      "updated": "2026-10-18",
-      "tags": ["EVE-NG", "Virtualization", "Lab Setup"],
-      "version": "LAB SETUP"
+      "file": "Kontents/Notes_MM/kill00.pdf",
+      "date": "2025-12-07",
+      "updated": "2025-12-07",
+      "tags": ["Network", "Network Engineer", "Killer"],
+      "version": "GENERAL KNOWLEDGE"
+    },
+    {
+      "title": "Socket and Port Number",
+      "category": "Networking Notes",
+      "description": "An explanation about Socket and Port Number.",
+      "type": "PDF",
+      "file": "Kontents/Notes_MM/socket_port00.pdf",
+      "date": "2025-09-25",
+      "updated": "2025-09-25",
+      "tags": ["Port", "Socket", "Network"],
+      "version": "NETWORKING BASIC KNOWLEDGE"
     },
     {
       "title": "MPLS L3VPN Fundamentals",
