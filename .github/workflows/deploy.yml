@@ -1,0 +1,47 @@
+name: Deploy to netlab
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-netlab
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate contents.json
+        run: python3 -m json.tool contents.json > /dev/null
+
+      - name: Check resource files exist
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          data = json.load(open("contents.json"))
+          for r in data.get("resources", []):
+              if not os.path.exists(r["file"]):
+                  print(f"::warning::Missing file: {r['file']}")
+          EOF
+
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull latest on server
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            set -e
+            cd /var/www/netlablwinkoaung/spdcnet
+            git fetch --prune origin main
+            git reset --hard origin/main
+            chmod -R o+rX .
+            echo "Deployed $(git rev-parse --short HEAD)"
