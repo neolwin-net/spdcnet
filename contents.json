@@ -430,6 +430,17 @@
       "version": "BGP"
     },
     {
+      "title": "Carrier-Supporting-Carrier (CSC) Full Lab",
+      "category": "Lab Writeups",
+      "description": "A practical lab guide to configuring, implementing, and verifying Carrier-Supporting-Carrier (CSC) architecture in an MPLS VPN environment.",
+      "type": "PDF",
+      "file": "Kontents/Lab_Writeups/csc-full-lab01.pdf",
+      "date": "2026-11-15",
+      "updated": "2026-11-15",
+      "tags": ["SERVICE PROVIDER", "INTER-AS", "BGP", "CSC", "MPLS"],
+      "version": "BGP"
+    },
+    {
       "title": "Dynamips",
       "category": "EVE-NG Images",
       "description": "Dynamips Images.",
