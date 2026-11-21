@@ -949,44 +949,60 @@ button {
 }
 
 
-/* High-contrast theme: inspired by GitHub's dark interface */
+/* HONOR MagicOS inspired dark glass theme */
 :root {
-  --bg: #0d1117;
-  --surface: #161b22;
-  --surface-strong: #21262d;
-  --border: #30363d;
-  --border-hover: #8b949e;
-  --text: #f0f6fc;
-  --muted: #c9d1d9;
-  --dim: #8b949e;
-  --white: #ffffff;
+  color-scheme: dark;
+  --bg: #070b12;
+  --surface: rgba(151, 185, 235, .055);
+  --surface-strong: rgba(151, 185, 235, .095);
+  --border: rgba(202, 222, 255, .14);
+  --border-hover: rgba(125, 224, 255, .42);
+  --text: #edf5ff;
+  --muted: #b0bfd3;
+  --dim: #8291a8;
+  --white: #fff;
+  --accent: #86e7ff;
+  --accent-blue: #8aaeff;
+  --accent-violet: #b2a1ff;
 }
 
 body {
-  background: var(--bg);
-  color: #f0f6fc;
-  font-size: 16px;
+  background:
+    radial-gradient(ellipse at 16% 4%, rgba(38, 173, 210, .15), transparent 34%),
+    radial-gradient(ellipse at 90% 16%, rgba(101, 111, 237, .13), transparent 31%),
+    radial-gradient(ellipse at 52% 75%, rgba(41, 88, 148, .10), transparent 42%),
+    #070b12;
+  color: var(--text);
+  font-size: 15px;
 }
 
-.ambient { display: none; }
+.ambient {
+  display: block;
+  filter: blur(100px);
+  opacity: .18;
+}
+.ambient-one { background: #46d7e8; }
+.ambient-two { background: #7774ff; }
 
 .glass {
-  background: #161b22;
-  border: 1px solid #30363d;
-  box-shadow: none;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  background: linear-gradient(135deg, rgba(181, 211, 255, .105), rgba(47, 67, 101, .18) 48%, rgba(16, 24, 39, .48));
+  border: 1px solid rgba(211, 228, 255, .16);
+  box-shadow: 0 18px 52px rgba(0, 0, 0, .30), inset 0 1px 0 rgba(255, 255, 255, .11);
+  backdrop-filter: blur(24px) saturate(155%);
+  -webkit-backdrop-filter: blur(24px) saturate(155%);
 }
 
 .site-header {
-  background: rgba(13,17,23,.97);
-  border-color: #30363d;
+  background: linear-gradient(115deg, rgba(22, 34, 53, .80), rgba(11, 17, 29, .74));
+  border-color: rgba(211, 228, 255, .18);
+  box-shadow: 0 16px 42px rgba(0, 0, 0, .34), inset 0 1px 0 rgba(255, 255, 255, .12);
 }
 
 .brand-mark {
-  border-color: #484f58;
-  background: #21262d;
-  color: #f0f6fc;
+  border-color: rgba(160, 212, 255, .30);
+  background: linear-gradient(145deg, rgba(133, 221, 255, .16), rgba(142, 155, 255, .08));
+  color: #dcf7ff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .12), 0 0 22px rgba(91, 201, 255, .08);
 }
 
 .brand-copy small,
@@ -1004,40 +1020,45 @@ body {
 .site-footer,
 .contact-link small,
 .contact-link-arrow {
-  color: #b1bac4;
+  color: #a8b8ce;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  background: #21262d;
-  color: #ffffff;
+  background: rgba(139, 199, 255, .12);
+  color: #f5fbff;
 }
 
-.hero h1 span { color: #79c0ff; }
+.hero h1 span {
+  background: linear-gradient(100deg, #9af0ff 5%, #92baff 55%, #c3a7ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 24px rgba(110, 201, 255, .16));
+}
 
 .hero-description,
 .section-subtitle,
 .resource-card p,
 .about-section p,
 .empty-state p {
-  color: #c9d1d9;
+  color: #b2bfd1;
 }
 
 .button-primary {
-  background: #238636;
-  color: #ffffff;
-  border-color: #2ea043;
+  background: linear-gradient(120deg, #77dff2, #7faeff 62%, #9a9aff);
+  color: #07111d;
+  border-color: rgba(198, 244, 255, .72);
+  box-shadow: 0 8px 28px rgba(82, 191, 233, .19), inset 0 1px 0 rgba(255, 255, 255, .48);
 }
-
 .button-primary:hover {
-  background: #2ea043;
-  border-color: #3fb950;
+  background: linear-gradient(120deg, #a2f2ff, #a0c3ff 62%, #c0b4ff);
+  border-color: #d9faff;
 }
-
 .button-quiet {
-  background: #21262d;
-  color: #f0f6fc;
-  border-color: #484f58;
+  background: rgba(174, 202, 245, .07);
+  color: #e1ebf8;
+  border-color: rgba(202, 222, 255, .18);
 }
 
 .hero-visual,
@@ -1046,108 +1067,115 @@ body {
 .resource-card,
 .empty-state,
 .about-section {
-  background: #161b22;
-  border-color: #30363d;
+  background: linear-gradient(145deg, rgba(172, 201, 245, .085), rgba(37, 52, 79, .22) 54%, rgba(15, 22, 36, .56));
+  border-color: rgba(202, 222, 255, .15);
 }
+.stat-value { color: #f4f8ff; }
+.stat-note { color: #8e9fb6; }
+.heading-period { color: var(--accent); }
 
-.stat-value { color: #ffffff; }
-.stat-note { color: #b1bac4; }
-
-.heading-period { color: #79c0ff; }
-
-.search-box svg { stroke: #b1bac4; }
-.search-box input { color: #f0f6fc; }
-.search-box input::placeholder { color: #8b949e; }
-
+.search-box svg { stroke: #9aacc4; }
+.search-box input { color: #edf5ff; }
+.search-box input::placeholder { color: #8392a8; }
 .search-box kbd {
-  border-color: #484f58;
-  color: #c9d1d9;
-  background: #0d1117;
+  border-color: rgba(202, 222, 255, .20);
+  color: #a7b6ca;
+  background: rgba(9, 15, 25, .55);
 }
-
 .sort-control select {
-  background: #0d1117;
-  color: #f0f6fc;
-  border-color: #484f58;
+  background: rgba(11, 18, 30, .78);
+  color: #e7f0fc;
+  border-color: rgba(202, 222, 255, .18);
 }
 
-.filter-chip { color: #c9d1d9; }
+.filter-chip { color: #aab8cb; }
 .filter-chip span {
-  color: #c9d1d9;
-  background: #21262d;
+  color: #aab8cb;
+  background: rgba(173, 201, 244, .10);
 }
 .filter-chip:hover {
-  color: #ffffff;
-  background: #21262d;
+  color: #f3f8ff;
+  background: rgba(155, 203, 255, .09);
 }
 .filter-chip.active {
-  color: #ffffff;
-  background: #1f3b59;
-  border-color: #388bfd;
+  color: #eafaff;
+  background: linear-gradient(120deg, rgba(73, 186, 217, .18), rgba(110, 126, 238, .18));
+  border-color: rgba(131, 220, 255, .32);
 }
-.filter-chip.active span { color: #ffffff; }
+.filter-chip.active span { color: #d4f7ff; }
 
+.resource-card {
+  box-shadow: 0 14px 36px rgba(0, 0, 0, .20), inset 0 1px 0 rgba(255, 255, 255, .075);
+}
 .resource-card:hover {
-  background: #1c2128;
-  border-color: #8b949e;
+  background: linear-gradient(145deg, rgba(174, 216, 255, .15), rgba(64, 91, 139, .24) 54%, rgba(18, 27, 44, .68));
+  border-color: rgba(133, 222, 255, .36);
+  box-shadow: 0 20px 46px rgba(0, 0, 0, .30), 0 0 28px rgba(82, 184, 255, .09), inset 0 1px 0 rgba(255, 255, 255, .13);
 }
 
 .file-type,
 .card-link,
-.text-link { color: #f0f6fc; }
-
+.text-link { color: #e4f0ff; }
 .file-icon {
-  border-color: #484f58;
-  color: #f0f6fc;
-  background: #21262d;
+  border-color: rgba(194, 216, 250, .22);
+  color: #bfeaff;
+  background: rgba(148, 193, 255, .08);
 }
-
 .tag {
-  border-color: #484f58;
-  color: #c9d1d9;
-  background: #0d1117;
+  border-color: rgba(202, 222, 255, .13);
+  color: #9eafc6;
+  background: rgba(7, 13, 23, .34);
 }
-
 .card-bottom,
 .visual-footer,
 .site-footer {
-  border-color: #30363d;
+  border-color: rgba(202, 222, 255, .12);
 }
-
 .card-link span,
-.text-link span { color: #79c0ff; }
-
-.loading-card { color: #c9d1d9; }
-.empty-icon { color: #79c0ff; }
+.text-link span { color: var(--accent); }
+.loading-card { color: #b5c4d8; }
+.empty-icon { color: var(--accent); }
 
 .about-symbol,
 .contact-link-icon {
-  color: #f0f6fc;
-  border-color: #484f58;
-  background: #21262d;
+  color: #d7f4ff;
+  border-color: rgba(174, 208, 255, .22);
+  background: linear-gradient(145deg, rgba(133, 221, 255, .12), rgba(117, 126, 238, .08));
 }
-
 .contact-link {
-  background: #0d1117;
-  border-color: #30363d;
+  background: rgba(10, 17, 29, .42);
+  border-color: rgba(202, 222, 255, .14);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .055);
 }
 .contact-link:hover {
-  background: #21262d;
-  border-color: #388bfd;
+  background: rgba(66, 111, 161, .22);
+  border-color: rgba(125, 224, 255, .34);
 }
-.contact-link strong { color: #f0f6fc; }
+.contact-link strong { color: #e7f1ff; }
 
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 select:focus-visible {
-  outline: 2px solid #58a6ff;
+  outline: 2px solid #8ce7ff;
   outline-offset: 3px;
 }
 
 @media (max-width: 640px) {
   .main-nav {
-    background: #161b22;
-    border-color: #30363d;
+    background: rgba(12, 20, 34, .90);
+    border-color: rgba(202, 222, 255, .18);
+    box-shadow: 0 16px 44px rgba(0, 0, 0, .38);
+    backdrop-filter: blur(24px) saturate(155%);
+    -webkit-backdrop-filter: blur(24px) saturate(155%);
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .glass,
+  .contact-link {
+    background: rgba(18, 27, 42, .96);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
 }
